@@ -1,0 +1,450 @@
+*{
+    padding:0%;
+    margin:0px;
+}
+.background{
+    background-image: url(backg3.png);
+    background-size: cover;
+    height:130%;
+    width: 100%;
+}
+
+.top{
+    height: 45px;
+    padding: 35px;
+}
+.logo{
+    height: 25px;
+    font-size: 20px;
+    color:orange;   
+}
+h2{
+    height: 30px;
+    font-size: 25px;
+    color:orange;
+    position: fixed;
+}
+
+.nav{
+    left: 200px;
+}
+p6{
+padding-left: 100px;    
+}
+a{
+    padding: 20px;    
+    color:orange;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: dotted;
+}
+.search i:nth-child(1){
+    height: 40px;
+    position: fixed;
+    padding-left: 750px;}
+
+.search i:nth-child(2){
+    height: 20px;
+    position: fixed;
+    padding-left: 800px;
+}
+.heading{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    align-items: center;
+}
+
+.right{
+    width: 340px;
+    height: 340px;
+    background-image: url('v1.png');
+    background-size: 400px;
+    border-radius: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right::before{
+    width: 330px;
+    height: 330px;
+    border:3px solid white;
+    content: '';
+    position:absolute;
+    border-radius: 330px;
+    padding:10px;
+}
+.left p:nth-child(1){
+    color:white;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+.left p:nth-child(2){
+    font-size: 29px;
+    color:white;
+}
+.left button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0px;
+}
+.left button:hover{
+    color: black;
+    
+}
+.icon{
+    position: fixed;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+    font-size: 23px;
+}
+.icon i:hover {
+    color: orange;
+}
+#food1{
+    background-image: url('v2.png');
+    background-size:130px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 20px;
+}
+#food2{
+    background-image: url('v1.png');
+    background-size: 130px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 20px;
+}
+.menu{
+    display: flex;
+    margin: 0px 30px;
+}
+
+/* about section */ 
+body{
+    background-color: black;
+}
+
+h1{
+    color: orange;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+.leftttt{
+    display: flex;
+    margin: 0px 30px;
+}
+.lefttt p:nth-child(1){
+    color:white;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-align: center;
+}
+.box1{
+    background-image: url('burger.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}
+.box2{
+    background-image: url('masala-dosa.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}
+.box3{
+    background-image: url('dhokla.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}
+.box4{
+    background-image: url('fafda.jpeg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+    
+}
+.box5{
+    background-image: url('Khandvi.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}
+p{
+    color:white;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-align: center;
+}
+.p1{
+    color: black;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font: bold;
+}
+.b1{
+    background-color: rgb(197, 191, 191);
+    height: 220px;
+    width: 170px;
+    border-radius: 15%;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-left: 24px;
+}
+.c1{
+    background-image: url('backg.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 20%;
+ }
+ .c2{
+    background-image: url('chef3.png');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 20%;
+ }
+.c3{
+    background-image: url('chef2.png');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 20%;
+ }
+ .c4{
+    background-image: url('Chef4.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 20%;
+ }
+.b2 {
+    background-color: white;
+ height: 220px;
+ width: 170px;
+ border-radius: 10%;
+ padding-left: 15px;
+ padding-top: 15px;
+ margin-left: 24px;
+}
+.box5{
+    background-image: url('idli.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}.box6{
+    background-image: url('dabeli.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}.box7{
+    background-image: url('samosa.jpeg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}.box8{
+    background-image: url('pav-bhaji.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}
+.foot{
+    background-color: orange;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.foot button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0px;
+}
+.foot button:hover{
+    color: black;
+}
+.input{
+    width: 350px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20%;
+    border: 2px solid black;
+    background-color: transparent;
+}
+.label{
+    padding-left: 160px;
+}
+.h1{
+color: black;
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 200;
+text-align: center;
+}
+.box9{
+    background-image: url('v1.png');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}
+.box10{
+    background-image: url('v2.png');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}
+.box11{
+    background-image: url('kachori.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}.box12{
+    background-image: url('Momo.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}.box13{
+    background-image: url('sandwich.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}.box14{
+    background-image: url('french-fries.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}.box15{
+    background-image: url('pasta.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}.box16{
+    background-image: url('pizza.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}.box17{
+    background-image: url('puff.jpg');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}.box18{
+    background-image: url('');
+    background-size:cover;
+    height: 180px;
+    width: 160px;
+    border-radius: 50%;
+}
+button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: orange;
+    color: black;
+}
+.table{
+    height: 400px;
+    width: 500px;
+    border-radius: 20% ;
+    border-color: white;
+    border-style: double;
+}
+.h2{
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+     color:orange;   
+}
+.h3{
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 50%;
+    border-color: white;
+    border: 2px solid white;
+}
+button:hover{
+ color: white;
+}
+.b4{
+    background-image: url('r1.jpg');
+    background-size:cover;
+    height: 220px;
+    width: 250px;
+    padding-left: 50px;
+    border-radius: 20%;
+    border-color: orange;
+}
+.b5{
+    background-image: url('r2.jpg');
+    background-size:cover;
+    height: 220px;
+    width: 250px;
+    padding-left: 50px;
+    border-radius: 20%;
+    display: flex;
+    border-color: orange;
+
+}
+.b6{
+    background-image: url('r3.jpg');
+    background-size:cover;
+    height: 220px;
+    width: 250px;
+    padding-left: 50px;
+    border-radius: 20%;
+    border-color: orange;
+}
+.menn{
+    display: flex;
+    margin: 20px 10px;
+}
